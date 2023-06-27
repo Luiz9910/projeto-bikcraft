@@ -1,0 +1,17 @@
+div.termos {
+    margin: 50px auto;
+}
+
+div.termos p + h2 {
+    margin-top: 40px;
+}
+
+div.termos h2 {
+    margin-bottom:10px;
+}
+
+div.termos p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--cor-11);
+}

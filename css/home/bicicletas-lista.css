@@ -1,0 +1,52 @@
+.lista-bicicletas-primaria {
+    margin: 150px auto 0 auto;
+    padding: 0 20px;
+    max-width: 1380px;
+}
+
+.lista-bicicletas-primaria ul {
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    list-style: none;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+}
+
+.lista-bicicletas-primaria li {
+    min-width: 280px;
+}
+
+.lista-bicicletas-primaria a {
+    display: block  !important;
+    text-decoration: none;   
+}
+
+.lista-bicicletas-primaria h3 {
+    margin-top: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.lista-bicicletas-primaria h3::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--cor-p1);
+    width: 12px;
+    height: 8px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.lista-bicicletas-primaria a:hover h3::before {
+    transition: 0.3s;
+    width: 26px;
+}
+
+.lista-bicicletas-primaria ul span {
+    display: inline-block;
+    margin-top: 8px;
+    padding-left: 20px;
+}

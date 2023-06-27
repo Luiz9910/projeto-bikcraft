@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Bikcraft</title>
+    <meta name="description" content="Temos e condições">
+    <!--Link CSS-->
+     <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!--Link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add("js")</script>
+</head>
+<body id="contato">
+    <header>
+        <div class="header container">
+            <a href="index.html">
+                <img src="./img/bikcraft.svg" alt="bikcraft" class="logo">
+            </a>
+
+            <nav aria-label="primaria">
+                <ul class="cor-0 font-1-m">
+                    <li><a href="bicicletas.html">Bicicletas</a></li>
+                    <li><a href="seguros.html">Seguros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>   
+    <main>
+        <div class="titulo-bg">
+            <div class="container titulo">
+                <p class="font-2-l-b cor-5">Respostas em até 23h</p>
+                <h1 class="font-1-xxl cor-0">Nosso contato<span class="cor-p1">.</span></h1>
+            </div>
+        </div>
+
+        <div class="container contato">
+            <section aria-label="Endereço" class="contato-dados">
+                <h2 class="font-1-m cor-0">Loja online</h2>
+                <div class="contato-endereco font-2-s cor-4">
+                    <p>Rua Ali Perto, 35</p>
+                    <p>Pernambuco - PE</p>
+                    <p>Brasil</p>
+                </div>
+                <address class="contato-meios font-2-s cor-4">
+                    <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+                    <a href="mailto:assitencia@bikcraft.com">assitencia@bikcraft.com</a>
+                    <a href="tel:+5521999999999">+55 33 9999-9999</a>
+                </address>
+                <div class="contato-redes">
+                    <a href="#"><img src="img/redes/instagram-p.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/redes/facebook-p.svg" alt="Youtube"></a>
+                    <a href="#"><img src="img/redes/youtube-p.svg" alt="facebook"></a>
+                </div>
+            </section>
+
+            <section aria-label="Formulário" class="contato-formulario">
+                <form action="./contato.html" class="form">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+                    </div>
+                    <div class="col-2">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="col-2">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="O que você precisa ?">s</textarea>
+                    </div>
+                    <button type="submit" class="button-y col-2">ENVIAR MENSAGEM</button>
+                </form>
+            </section>
+        </div>
+
+        
+        <article class="lojas container">
+            <h2 class="font-1-xxl">lojas locais <span class="cor-p1">.</span></h2>
+            <div class="lojas-item">
+                <img src="./img/lojas/rj.jpg" alt="mapa marcado o endereço em Rua Ali perto, 25 - Pernambuco - PE">
+                <div class="lojas-conteudo">
+                    <h3 class="font-1-xl">Pernambuco</h3>
+                    <div class="lojas-dados font-2-s cor-8">
+                        <p>Rua Ali Perto, 25</p>
+                        <p>Pernambuco - PE</p>
+                    </div>
+                    <div class="lojas-dados font-2-s cor-8">
+                        <a href="mailto:pe@bikcraft.com">pe@bikcraft.com</a>
+                        <a href="tel:+5581999999999">+55 33 9999-9999</a>
+                    </div>
+                    <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+                </div>
+            </div>
+            <div class="lojas-item">
+                <img src="./img/lojas/sp.jpg" alt="mapa marcado o endereço em Rua Ali perto, 25 - São Paulo - SP">
+                <div class="lojas-conteudo">
+                    <h3 class="font-1-xl">São Paulo</h3>
+                    <div class="lojas-dados font-2-s cor-8">
+                        <p>Rua Ali Perto, 25</p>
+                        <p>São Paulo - SP</p>
+                    </div>
+                    <div class="lojas-dados font-2-s cor-8">
+                        <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+                        <a href="tel:+5511999999999">+55 33 9999-9999</a>
+                    </div>
+                    <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="container footer">
+            <img src="./img/bikcraft.svg" alt="bikcraft">     
+            <div>
+                <h3 class="font-2-l-b cor-0">Contato</h3>
+                <ul class="font-1-m cor-5 footer-contatos">
+                    <li><a href="tel:+5521999999999">+55 33 9999-9999</a></li>
+                    <li><a href="mailto:contato@bikcraft.com">CONTATO@BIKCRAFT.COM</a></li>
+                    <li>Rua Ali Perto, 55 - Ibituruna</li>
+                    <li>Governador Valadares - MG</li>
+                </ul>
+                <div class="footer-redes">
+                    <a href="#"><img src="img/redes/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="img/redes/youtube.svg" alt="Youtube"></a>
+                    <a href="#"><img src="img/redes/facebook.svg" alt="facebook"></a>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-2-l-b cor-0">Informações</h3>
+                <nav class="secundaria">
+                    <ul class="font-1-m cor-5">
+                        <li><a href="bicicletas.html">Bicicletas</a></li>
+                        <li><a href="seguros.html">Seguros</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="termos.html">Termos e condições</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="footer-copy font-2-m cor-6">bIKCRAFT © ALGUNS DIREITOS RESERVADOS.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script></body>
+</html>
