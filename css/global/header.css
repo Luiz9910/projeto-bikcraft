@@ -65,7 +65,8 @@ header ul li a.ativo::after {
         color: var(--cor-0);
     }
 
-    header ul li a:hover::after {
+    header ul li a:hover::after,
+    header ul li a.ativo::after {
         width: initial;
     }
 }
